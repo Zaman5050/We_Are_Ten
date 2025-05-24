@@ -1,0 +1,161 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/marikecronje/Desktop/Website Finals/1 Homepage/Document fonts/AdobeFnt23.lst
+FileLength:3387
+FileModTime:744018663
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cabin-Regular
+FamilyName:Cabin
+StyleName:Regular
+MenuName:Cabin
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Cabin Regular
+WritingScript:Roman
+OutlineFileName:/Users/marikecronje/Desktop/Website Finals/1 Homepage/Document fonts/Cabin-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:188320
+FileModTime:343730176
+NameArray:0,Mac,18,Cabin Regular
+NameArray:0,Mac,4,Cabin Regular
+NameArray:0,Win,1,Cabin
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DMSerifText-Regular
+FamilyName:DM Serif Text
+StyleName:Regular
+MenuName:DM Serif Text
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:DM Serif Text Regular
+WritingScript:Roman
+OutlineFileName:/Users/marikecronje/Desktop/Website Finals/1 Homepage/Document fonts/DMSerifText-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:77368
+FileModTime:581968800
+NameArray:0,Win,1,DM Serif Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Book
+FamilyName:Gotham
+StyleName:Book
+MenuName:Gotham Book
+StyleBits:0
+WeightClass:325
+WidthClass:5
+AngleClass:0
+FullName:Gotham Book
+WritingScript:Roman
+OutlineFileName:/Users/marikecronje/Desktop/Website Finals/1 Homepage/Document fonts/Gotham-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:158964
+FileModTime:595756102
+NameArray:0,Mac,4,Gotham Book
+NameArray:0,Win,1,Gotham Book
+NameArray:0,Win,16,Gotham
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/marikecronje/Desktop/Website Finals/1 Homepage/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:673338932
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ahellya-Italic
+FamilyName:Ahellya
+StyleName:Italic
+MenuName:Ahellya
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Ahellya Italic
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:/Users/marikecronje/Desktop/Website Finals/1 Homepage/Document fonts/ahellya italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:60360
+FileModTime:427661416
+NameArray:0,Mac,4,Ahellya Italic
+NameArray:0,Win,1,Ahellya
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ahellya
+FamilyName:Ahellya
+StyleName:Regular
+MenuName:Ahellya
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Ahellya
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:/Users/marikecronje/Desktop/Website Finals/1 Homepage/Document fonts/ahellya.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:51512
+FileModTime:427661420
+NameArray:0,Mac,4,Ahellya
+NameArray:0,Win,1,Ahellya
+%EndFont
+

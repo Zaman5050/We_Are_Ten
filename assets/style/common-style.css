@@ -1,0 +1,397 @@
+@font-face {
+    font-family: "Ahellya";
+    src: url(../fonts/ahellya.ttf);
+}
+@font-face {
+    font-family: "Gotham";
+    src: url(../fonts/Gotham-Book.otf);
+}
+@font-face {
+    font-family: "Ahellya-itallic";
+    src: url(../fonts/ahellya\ italic.ttf);
+}
+@font-face {
+    font-family: "Cabin-regular";
+    src: url(../fonts/Cabin-Regular.ttf);
+}
+@font-face {
+    font-family: "DMSerifText-Regular";
+    src: url(../fonts/DMSerifText-Regular.ttf);
+}
+@font-face {
+    font-family: "MinionPro-Regular";
+    src: url(../fonts/MinionPro-Regular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+button,a{
+    cursor: pointer;
+}
+
+body{
+    overflow-x: hidden;
+}
+/* -------------------------------header------------------------------- */
+.ahellyan-itallic{
+    font-family: "Ahellya-itallic" !important;
+}
+.bg-black{
+    background: #000;
+}
+.home-bg-img{
+    background-image: url('../images/Hero_Image_The_Barnum_Residential.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+    overflow-x: hidden;
+
+}
+.home-bg-img::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+.nav-logo{
+    height: 46.47px;
+    width: 42px;
+    object-fit: contain;
+    /* object-position: top; */
+    float: left;
+    margin: 27px 10px 27px 25px;
+    position: absolute;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 94px;
+    align-items: center;
+}
+
+.nav-menu li{
+    position: relative;
+}
+
+.nav-menu li:hover .submenu{
+    display: block;
+}
+.nav-menu li a{
+    color:#ffff;
+    font-family: "Cabin-regular";
+    font-size: 16px;
+    padding: 10px;
+}
+.nav-menu li a:hover,
+.nav-active{
+    border-bottom: 1px solid #fff;
+    font-weight: 700;
+}
+
+
+
+
+.container{
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.navbar{
+    height: 94px;
+    transition:0.5s;
+
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+    top: 26px;
+    background-color: #1A1A1A;
+    width: 212px;
+    padding: 18px;
+    z-index: 9;
+}
+
+.submenu li{
+    padding-bottom: 20px;
+}
+.submenu li:last-child{
+    padding-bottom: 0;
+}
+
+.submenu li:hover .nested-submenu{
+    display: block;
+}
+
+.nested-submenu{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    background-color: #1A1A1A;
+    padding: 18px;
+    width: 212px;
+
+
+}
+
+.header-content{
+    text-align: center;
+    padding: 166px 0 166px 0;
+
+}
+.header-headig{
+    font-size: 70px;
+    color: #FFF;
+    font-family: "Ahellya";
+    font-weight: 400;
+    /* margin-bottom: 30px; */
+}
+.header-text{
+    font-size: 16px;
+    color: #FFF;
+    font-family: "Gotham";
+    margin-bottom: 50px;
+}
+.header-btn{
+    color: #FFF;
+    font-family: "Ahellya";
+    font-size: 13px;
+    font-weight: 400;
+    width: 258px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: transparent;
+    border: 1px solid #CECECE;
+    transition: 0.3s ease;
+    letter-spacing: 1.5px;
+}
+
+.header-btn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s ease;
+    border-color: #000;
+
+}
+/* --------------------------Footer-------------------------------- */
+.f-content-container{
+    display: flex;
+    padding: 118px 0;
+    margin: 0 118px;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+}
+.f-heading{
+    color: #FFF;
+    font-family: 'Ahellya';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    width: 41%;
+}
+.f-datil-container{
+    width: 16%;
+}
+.f-datil-container p{
+    color: #FFF;
+    font-family: "Cabin-regular";
+    /* font-family: "Ahellya"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.f-bottom-container{
+    max-width: 832px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.f-logo{
+    width: 37px;
+    height: 60px;
+    object-fit: contain;
+}
+.f-text{
+    color: #FFF;
+    font-family: "Gotham";
+    font-size: 13px;
+}
+.openbtn.three-lines-contact-us span{
+    background: #000;
+}
+/* ---------------hamburger Menu------------------------ */
+.nav-md{
+    border-bottom: 1px solid #E0E0E0;
+    display: none;
+    padding: 10px 10px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px); /* Safari */
+
+}
+.d-block-md{
+    display: none;
+}
+.openbtn {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 99999;
+    display: none;
+    margin-left: auto;
+    
+}
+.openbtn .openbtn-area{
+    /* transition: all .4s; */
+    width: 46px;
+    height: 30px;
+}
+
+.openbtn span {
+    position: absolute;
+    background: #fff;
+    display: inline-block;
+    border-radius: 3px;
+    left: 14px;
+    height: 2px;
+    transition: all .4s;
+    width: 50%;
+    &:nth-of-type(1) {
+        top: 7px;
+    }
+    &:nth-of-type(2) {
+        top: 15px;
+    }
+    &:nth-of-type(3) {
+        top: 23px;
+    }
+}
+
+.openbtn.active .openbtn-area {
+    transform: rotate(360deg);
+}
+
+
+.openbtn.active span{
+    &:nth-of-type(1) {
+        width: 50%;
+        top: 7px;
+        left: 4px;
+        transform: translateY(6px) rotate(-45deg);
+    }
+    &:nth-of-type(2) {
+        opacity: 0;
+    }
+    &:nth-of-type(3) {
+        width: 50%;
+        top: 19px;
+        left: 4px;
+        transform: translateY(-6px) rotate(45deg);
+    }
+}
+/* ----------------------------------------------------- */
+@media(max-width:768px){
+    .submenu,
+    .nested-submenu{
+        position: inherit;
+        background: none;
+        left: 0;
+        width: unset;
+        top: 10px;
+    }
+   
+    .d-none-md{
+        display: none;
+    }
+    .d-block-md{
+        display: block;
+    }
+   
+    .container{
+        padding: 0 15px;
+    }
+    .navbar{
+        z-index: 9;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: transparent;
+        /* padding: 30px; */
+        position: fixed;
+        /* padding-bottom: 40px; */
+        right: 0;
+        height:calc(100vh - 51px);
+        background: transparent;
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px); /* Safari */
+        transform: translate(100%, 0px);
+    }
+    .navbar.active{
+        transform: translate(0%, 0px);
+    }
+    .nav-menu{
+        flex-direction: column;
+        height:calc(100vh - 51px);
+        margin: unset;
+        gap: 30px;
+        overflow-y: auto;
+        justify-content: start;
+        max-width: 100%;
+        align-items: start;
+        padding: 30px 10px;
+
+    }
+    .nav-logo{
+        position: relative;
+        margin: 0;
+    }
+    .nav-logo-container{
+        display: none;
+    }
+    /* .nav-position{
+        transform: translate(100%, 0px);
+    } */
+    .openbtn{
+        display: block;
+    }
+    .nav-md{
+        display: block;
+    }
+    .over-flow-body{
+        overflow-y: hidden;
+    }
+    .nav-logo{
+        width: 26px;
+        height: 30px;
+        margin-left: 9px;
+    }
+}
